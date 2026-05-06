@@ -5,6 +5,7 @@ python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 python-dotenv==1.0.1
 python-multipart==0.0.9
-pydantic[email]>=2.6,<2.8
+pydantic[email]>=2.5,<2.7
 alembic==1.13.1
 setuptools>=68
+pydantic-core==2.18.3  # has prebuilt wheels
